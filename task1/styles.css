@@ -1,0 +1,56 @@
+/* Общие стили */
+body {
+    background-color: #ffd2ff; /* Цвет фона страницы */
+    font-family: Arial, sans-serif; /* Шрифт текста */
+    text-align: center; /* Центрирование текста */
+    margin: 0;
+    padding: 0;
+}
+
+/* Контейнер профиля */
+.profile-container {
+    margin: 50px;
+    padding: 20px;
+    background-color: #ffa1ef; /* Белый фон контейнера */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Заголовок */
+h1 {
+    color: #333;
+}
+
+/* Аватар */
+.avatar {
+    width: 150px; /* Ширина изображения */
+    height: 150px; /* Высота изображения */
+    border-radius: 50%; /* Круглая рамка */
+    border: 3px solid #ccc; /* Рамка */
+    margin: 20px 0;
+}
+
+/* Список хобби */
+ul {
+    list-style-type: none; /* Убираем маркеры */
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0; /* Отступы для элементов списка */
+    font-size: 18px;
+}
+
+/* Ссылка на социальную сеть */
+a {
+    text-decoration: none; /* Убираем подчеркивание */
+    color: #0077cc; /* Цвет ссылки */
+    font-size: 18px;
+}
+
+a:hover {
+    color: #005fa3; /* Цвет при наведении */
+}
