@@ -1,0 +1,52 @@
+/* Общие стили */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Цвет фона страницы */
+}
+
+/* Шапка */
+header {
+    background-color: #ffbae6; /* Темно-зеленый фон */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Основной блок */
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Секция с текстом */
+.text-section {
+    flex: 1; /* Текст занимает доступное пространство */
+    padding-right: 20px;
+}
+
+/* Секция с изображением */
+.image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center; /* Центрируем изображение */
+}
+
+.image {
+    width: 300px;
+    height: 200px;
+    object-fit: cover; /* Сохранение пропорций изображения */
+    border-radius: 10px;
+}
+
+/* Подвал */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ffbae6; /* Цвет фона подвала */
+    color: white;
+    font-size: 12px;
+    margin-top: 20px;
+}
