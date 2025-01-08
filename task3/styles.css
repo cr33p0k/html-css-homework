@@ -1,0 +1,51 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffd8f1; /* Светлый фон страницы */
+}
+
+/* Контейнер для карточек */
+.products-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Для адаптивности */
+    padding: 20px;
+}
+
+/* Стили для карточки товара */
+.product-card {
+    background-color: #ffbbf1;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень */
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Изображение товара */
+.product-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Кнопка "Купить" */
+.buy-button {
+    background-color: #28a745; /* Зеленая кнопка */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.buy-button:hover {
+    background-color: #218838; /* Темно-зеленый цвет при наведении */
+}
